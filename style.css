@@ -1,0 +1,91 @@
+.main-body {
+    display: flex;
+    height: 100vh;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.div {
+    background-color: white;
+    height: 700px;
+    width: 510px;
+}
+
+.left {
+    background-color: #F8F6F4;
+}
+
+
+.right {
+    background-image: url("./Assets/images/Vincent\ Photo.png");
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
+
+p,a {
+    font-family: 'Nunito Sans', sans-serif;
+}
+p {
+    width: fit-content;
+}
+
+.description {
+    text-wrap: balance;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    top: 6rem;
+}
+
+.bio,.logo {
+    margin-left: 30px;
+}
+
+.link {
+    text-align: end;
+    margin-right: 20px;
+}
+.link>li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.link>li>a{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.link>li>a:hover {
+    text-decoration: underline;
+}
+
+.call {
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.315);
+}
+
+.logo {
+    margin-top: 26px;
+}
+
+.button {
+    padding: 8px 40px;
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.904);
+    position: relative;
+    top: 4rem;
+}
+
