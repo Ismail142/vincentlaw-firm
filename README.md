@@ -1,7 +1,5 @@
-
-[google.com]
 # vincentlaw-firm
-  A pre-design website of my imaginary vincent law firm in boston 
+A landing webpage of my imaginary vincent law firm.
 
 # NOTE
 Not Mobile Responsive
